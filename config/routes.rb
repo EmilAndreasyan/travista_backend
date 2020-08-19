@@ -4,8 +4,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :users do
         resources :countries do
-          resources :cities do
-            
+          resources :cities do  
           end
         end
       end
