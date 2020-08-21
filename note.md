@@ -1,0 +1,1 @@
+add validations and belogs_to has_many in models
