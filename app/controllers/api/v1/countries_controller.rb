@@ -1,5 +1,4 @@
 class Api::V1::CountriesController < ApplicationController
-    #include CurrentUserConcern, git add . adding country controller, adding city controller 
     #before_action :set_user
     include CurrentUserConcern
 
